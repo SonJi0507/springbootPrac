@@ -6,11 +6,10 @@ plugins {
 }
 
 group 'com.jhson.book'
-version '1.0-SNAPSHOT-' +new Date().format("yyyyMMddHHmmss")
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 // for Junit 5
 test { // (2)
